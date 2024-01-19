@@ -7,22 +7,22 @@
                 <div class="p-6 text-gray-900">
                     <h1 class="h3 mb-0 text-gray-800 text-center">Data Diri</h1>
                     <table class="table table-bordered mt-2" width="100%" cellspacing="0">
-                        <thead class="text-center">
+                        <thead>
                             <tr>
                                 <th>Nama</th>
-                                <td class="align-baseline">{{ $item->users->name }}</td>>
+                                <td class="align-baseline">{{ $item->users->name }}</td>
                             </tr>
                             <tr>
                                 <th>Email</th>
-                                <td class="align-baseline">{{ $item->users->email }}</td>>
+                                <td class="align-baseline">{{ $item->users->email }}</td>
                             </tr>
                             <tr>
                                 <th>Alamat</th>
-                                <td class="align-baseline">{{ $item->alamat }}</td>>
+                                <td class="align-baseline">{{ $item->alamat }}</td>
                             </tr>
                             <tr>
                                 <th>No. Telepon</th>
-                                <td class="align-baseline">{{ $item->telepon }}</td>>
+                                <td class="align-baseline">{{ $item->telepon }}</td>
                             </tr>
                         </thead>
                     </table>
